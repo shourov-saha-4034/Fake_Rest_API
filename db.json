@@ -15,11 +15,8 @@
 
     ],
     "qc_user_assiged_order": [
-        {"id": "1", "qc_user_id": "2", "order_id": "1", "assigned_date": "01-01-2019", "active": "1"},
-        {"id": "2", "qc_user_id": "2", "order_id": "2", "assigned_date": "01-01-2019", "active": "1"}
+        {"id": 1, "qc_user_id": 2, "order_id": 1, "assigned_date": "01-01-2019", "active": 1},
+        {"id": 2, "qc_user_id": 2, "order_id": 2, "assigned_date": "01-01-2019", "active": 1}
     ]  
 
   }
-
-
-  
