@@ -1,12 +1,23 @@
     
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+    "qc_user": [
+         { "user_id": 1, "user_name": "Asif Al Azad", "password": "", "role_id": "1", "remarks": "" },
+         { "user_id": 2, "user_name": "Mostak Ahamed", "password": "", "role_id": "2", "remarks": "" },
+         { "user_id": 3, "user_name": "Zahid Hasan", "password": "", "role_id": "2", "remarks": "" },
+         { "user_id": 4, "user_name": "Sowroar Hossain", "password": "", "role_id": "2", "remarks": "" },
+         { "user_id": 5, "user_name": "Shourov Saha", "password": "", "role_id": "2", "remarks": "" },
+         { "user_id": 6, "user_name": "Nahid Khan", "password": "", "role_id": "2", "remarks": "" }
+    ],
+    "orders":[
+        { "order_id": "", "customer_name": "AAA","mssidn": "01911010101", "order_create_date": "01-01-2019", "order_activation_date": "01-01-2019", "qc_status_update_date": null, "division_id": "1", "district_id": "1", "thana_id": "1", "village": "Gulshan-1", "post_code": "1208", "house_no": "102", "flat_no": "2", "alt_no": "01911010111", "email": "mostak@gmail.com", "gender": "male", "salesman_code": "123131", "qc_status": "1", "qc_rejection_reason": null, "channel_id": "1"},
+        { "order_id": "", "customer_name": "BBB","mssidn": "01911010102", "order_create_date": "01-01-2019", "order_activation_date": "01-01-2019", "qc_status_update_date": null, "division_id": "2", "district_id": "1", "thana_id": "1", "village": "Gulshan-1", "post_code": "1208", "house_no": "102", "flat_no": "2", "alt_no": "01911010111", "email": "mostak@gmail.com", "gender": "male", "salesman_code": "123131", "qc_status": "1", "qc_rejection_reason": null, "channel_id": "1"},
+        { "order_id": "", "customer_name": "CCC","mssidn": "01911010103", "order_create_date": "01-01-2019", "order_activation_date": "01-01-2019", "qc_status_update_date": null, "division_id": "1", "district_id": "2", "thana_id": "1", "village": "Gulshan-1", "post_code": "1208", "house_no": "102", "flat_no": "2", "alt_no": "01911010111", "email": "mostak@gmail.com", "gender": "male", "salesman_code": "123131", "qc_status": "1", "qc_rejection_reason": null, "channel_id": "1"},
+        { "order_id": "", "customer_name": "DDD","mssidn": "01911010104", "order_create_date": "01-01-2019", "order_activation_date": "01-01-2019", "qc_status_update_date": null, "division_id": "3", "district_id": "2", "thana_id": "1", "village": "Gulshan-1", "post_code": "1208", "house_no": "102", "flat_no": "2", "alt_no": "01911010111", "email": "mostak@gmail.com", "gender": "male", "salesman_code": "123131", "qc_status": "1", "qc_rejection_reason": null, "channel_id": "1"}
+
+    ],
+    "qc_user_assiged_order": [
+        {"id": "1", "qc_user_id": "2", "order_id": "1", "assigned_date": "01-01-2019", "active": "1"},
+        {"id": "2", "qc_user_id": "2", "order_id": "2", "assigned_date": "01-01-2019", "active": "1"}
+    ]  
+
   }
-}
